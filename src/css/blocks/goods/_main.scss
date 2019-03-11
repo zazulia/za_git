@@ -1,0 +1,22 @@
+.b-goods {
+	font-size: $FONT_SIZE;
+	line-height: normal;
+	padding: 10px 0px 10px 0px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	width: 98%;
+	position: relative;
+	&__title {
+		font-size: 36px;
+		text-align: center;
+		font-family: $FONT_FAMILY_EXO;
+		margin-bottom: 18px;
+	}
+	&__items {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		align-content: stretch;	
+	}
+}

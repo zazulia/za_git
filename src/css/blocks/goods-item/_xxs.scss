@@ -1,0 +1,11 @@
+.b-goods-item {
+	width: 300px;
+	&__pic {
+		width: 100%;
+		height: auto;
+	}
+	&__title {
+		font-size: 46px;
+		line-height: 44px;
+	}
+}
