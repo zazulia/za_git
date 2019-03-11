@@ -1,6 +1,6 @@
 function goods()
 {
-	console.log("2");
+	console.log("");
 	
 	var items = document.querySelectorAll('.b-goods__items .b-goods-item');
 

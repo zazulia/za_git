@@ -42,17 +42,17 @@ module.exports = {
       }, {
 			test: /\.scss$/,
             use: [{
-                        loader: "file-loader",
-                        options: {
-                            name: "css/[name].css",
-                        },
-                    },
-                    {
-                        loader: "extract-loader",
-                        options: {
-                            publicPath: "../",
-                        }
-                    }, {
+					loader: "file-loader",
+					options: {
+						name: "css/[name].css",
+					},
+				},
+				{
+					loader: "extract-loader",
+					options: {
+						publicPath: "../",
+					}
+				}, {
                 loader: "css-loader"
             }, {
 				loader: 'postcss-loader',
